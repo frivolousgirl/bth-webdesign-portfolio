@@ -1,0 +1,34 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+//font-family: 'Gabarito', sans-serif;
+//font-family: 'Space Mono', monospace;
+
+$titles: 'Gabarito', sans-serif;
+$text: 'Space Mono', monospace;
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $titles;
+}
+
+p {
+    font-family: $text;
+}
