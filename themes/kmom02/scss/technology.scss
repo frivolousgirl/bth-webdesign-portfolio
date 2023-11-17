@@ -1,0 +1,117 @@
+/* technology.scss */
+
+.landingpage {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 1000px;
+  gap: 1em 1em;
+
+  h1 {
+    grid-column: span 3;
+    justify-self: center;
+  }
+}
+
+.box {
+  border: 3px solid black;
+  height: 10em;
+  padding: 1em;
+
+  &:hover {
+    box-shadow: 12px 12px 2px 1px $links-color;
+  }
+
+  a {
+    color: $links-alternative-color;
+    text-decoration: underline wavy;
+    &:hover {
+      color: $links-color;
+    }
+  }
+}
+
+.css {
+  grid-column: span 1 / 2;
+}
+
+.html {
+  grid-column: 2 / span 3;
+}
+
+.js {
+  grid-column: 1 / span 2;
+}
+
+.php {
+  grid-column: 3 / 3;
+}
+
+.python {
+  grid-column: 1 / span 3;
+}
+
+.git {
+  grid-column: span 1 / 2;
+}
+
+.sqlite {
+  grid-column: 2 / span 3;
+}
+
+.page-content {
+  display: flex;
+  max-width: 1300px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tech-list {
+  flex: 1;
+  padding: 20px;
+  border: 3px solid $links-alternative-color;
+  box-shadow: 12px 12px 2px 1px $links-color;
+  border-radius: 23px;
+  margin-right: 20px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+  }
+}
+
+.tech-list h3 {
+  margin: 0;
+}
+
+.main {
+  flex: 3;
+  padding: 20px;
+}
+
+@media (max-width: 1050px) {
+  .landingpage {
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+
+    div {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+  }
+}

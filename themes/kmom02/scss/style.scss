@@ -12,6 +12,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 @import "footer.scss";
 @import "blockquotes";
 @import "code";
+@import "technology";
 
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 //font-family: 'Gabarito', sans-serif;
@@ -112,4 +113,14 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+a {
+  color: $font-color;
+  text-decoration: none;
+  &:hover {
+  color: $links-alternative-color;
+  border-bottom: 3px solid $links-alternative-color;
+  text-decoration: none;
+  }
 }

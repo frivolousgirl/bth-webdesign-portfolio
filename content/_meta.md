@@ -13,6 +13,6 @@ Social:
       url: https://sass-lang.com/guide/
       icon: fab fa-sass
     - title: Länk till Markdown Basics Guide.
-      url: https://dbwebb.se/kurser/design-v3/
+      url: https://daringfireball.net/projects/markdown/basics
       icon: fab fa-markdown
 ---
