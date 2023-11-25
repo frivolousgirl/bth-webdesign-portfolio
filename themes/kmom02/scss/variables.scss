@@ -1,16 +1,24 @@
+/* Variables for regular theme */
+
 // Color Scheme
-$accent-color: #D8FEA4;
-$background-color: #FFF;
-$background-alternative-color: #FDF7EB;
+$accent-color1: #d8fea4;
+$accent-color2: #a7b3de;
+$accent-color3: #ec8970;
+$background-color: #fff;
+$background-alternative-color: #fdf7eb;
+$dark-color: #482c2e;
+
+// Footer Background Colors
+$footer-background-color: #d8fea4;
 
 // Fonts
-$titles: 'Gabarito', sans-serif;
-$text: 'Space Mono', monospace;
+$titles: "Gabarito", sans-serif;
+$text: "Space Mono", monospace;
 
 // Font Color
-$font-color: #482C2E;
-$font-alternative-color: #FDF7EB;
+$font-color: #482c2e;
+$font-alternative-color: #fdf7eb;
 
 // Link Color
-$links-color: #A7B3DE;
-$links-alternative-color: #EC8970;
+$links-color: #a7b3de;
+$links-alternative-color: #ec8970;

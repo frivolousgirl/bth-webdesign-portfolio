@@ -7,9 +7,9 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 @import "../../node_modules/normalize.css/normalize";
 @import "variables";
 
-@import "header.scss";
-@import "nav.scss";
-@import "footer.scss";
+@import "header";
+@import "nav";
+@import "footer";
 @import "blockquotes";
 @import "code";
 @import "technology";
@@ -19,71 +19,73 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 //font-family: 'Space Mono', monospace;
 
 * {
-  box-sizing: border-box;
-  border: 0 none;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
 }
 
 ol,
 ul {
-  padding-left: 1.5em;
+    padding-left: 1.5em;
 }
 
 .hidden {
-  display: none !important;
+    display: none !important;
 }
 
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 
 /* Placement */
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
-  flex: 1 0 auto;
-  margin: 0 auto;
-  max-width: 1000px;
+    flex: 1 0 auto;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .header,
 .footer {
-  flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 @media (max-width: 767px) {
-  .title,
-  .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    max-width: 30%;
-  }
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
 }
 
 .title * {
-  color: $font-color;
+    color: $font-color;
 }
 
 .title p {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* Typografy */
 
 body {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  color: #444;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
 }
 
 p,
@@ -91,10 +93,10 @@ td,
 th,
 li,
 dd {
-  padding: 5px 0;
-  font-family: $text;
-  color: $font-color;
-  margin-bottom: 1em;
+    padding: 5px 0;
+    font-family: $text;
+    color: $font-color;
+    margin-bottom: 1em;
 }
 
 h1,
@@ -103,24 +105,82 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.6em 0;
-  font-weight: bold;
-  font-family: $titles;
-  color: $font-color;
+    margin: 0.6em 0;
+    font-weight: bold;
+    font-family: $titles;
+    color: $font-color;
+}
+
+h1 {
+    line-height: 1em;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Gallery Styles */
+
+div.gallery {
+    margin: 30px 10px;
+    float: left;
+    width: 300px;
+    border: 1px solid $dark-color;
+
+    &:hover {
+        box-shadow: 12px 12px 2px 1px $accent-color2;
+        background-color: $accent-color3;
+        color: $font-alternative-color;
+    }
+
+    a {
+        height: 200px;
+        display: block;
+        background-position: center 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: $text;
 }
 
 a {
-  color: $font-color;
-  text-decoration: none;
-  &:hover {
-  color: $links-alternative-color;
-  border-bottom: 3px solid $links-alternative-color;
-  text-decoration: none;
-  }
+    color: $links-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $links-alternative-color;
+        border-bottom: 3px solid $links-alternative-color;
+        text-decoration: none;
+    }
+}
+
+th,
+td {
+    padding: 10px 15px;
+}
+th {
+    background-color: $accent-color1;
+    color: $font-color;
+}
+
+tr:nth-child(even) {
+    background-color: $background-alternative-color;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
 }

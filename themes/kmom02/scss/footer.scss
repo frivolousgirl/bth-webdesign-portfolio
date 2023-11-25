@@ -1,46 +1,48 @@
 /* Footer */
 .footer {
-  padding: 35px 35px;
-  background-color: $accent-color;
-  margin-top: 45px;
+    padding: 35px;
+    background-color: $footer-background-color;
+    margin-top: 45px;
+}
 
-  .grid-footer {
+.grid-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
 
-    > div:first-child {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      p {
+.grid-footer div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
         text-align: center;
-      }
     }
 
     .social {
-      display: flex;
-      justify-content: center;
-      margin: 0 5px;
+        display: flex;
+        justify-content: center;
+        margin: 0 5px;
     }
-  }
+}
 
-  a {
+.footer a {
     text-decoration: none;
     color: $font-color;
     margin: 0 10px;
 
     &:hover {
-      color: $links-color;
+        color: $links-color;
+        border: none;
     }
-  }
+}
 
-  h3 {
+.footer h3 {
     text-transform: uppercase;
-  }
+}
 
-  .social {
-    font-size: 2rem;
-  }
+.footer .social {
+    font-size: 1.5em;
 }

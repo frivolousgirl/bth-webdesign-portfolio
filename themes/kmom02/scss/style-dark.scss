@@ -1,0 +1,190 @@
+@import "../../shared/fontawesome/scss/fontawesome";
+$fa-font-path: "../../shared/fontawesome/webfonts";
+@import "../../shared/fontawesome/scss/brands";
+@import "../../shared/fontawesome/scss/solid";
+@import "../../shared/fontawesome/scss/regular";
+
+@import "../../node_modules/normalize.css/normalize";
+@import "variables-dark";
+
+@import "header";
+@import "nav";
+@import "footer";
+@import "blockquotes";
+@import "code-dark";
+@import "technology-dark";
+
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+//font-family: 'Gabarito', sans-serif;
+//font-family: 'Space Mono', monospace;
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: $background-color;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    padding: 5px 0;
+    font-family: $text;
+    color: $font-color;
+    margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.6em 0;
+    font-weight: bold;
+    font-family: $titles;
+    color: $font-color;
+}
+
+h1 {
+    line-height: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Gallery Styles */
+
+div.gallery {
+    margin: 30px 10px;
+    float: left;
+    width: 300px;
+    border: 1px solid $light-color;
+
+    &:hover {
+        box-shadow: 12px 12px 2px 1px $accent-color2;
+        background-color: $accent-color3;
+        color: $font-color;
+    }
+
+    a {
+        height: 200px;
+        display: block;
+        background-position: center 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: $font-color;
+    font-family: $text;
+}
+
+a {
+    color: $links-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $links-alternative-color;
+        border-bottom: 3px solid $links-alternative-color;
+        text-decoration: none;
+    }
+}
+
+/* Table Style*/
+th,
+td {
+    padding: 10px 15px;
+}
+th {
+    background-color: $accent-color3;
+    color: $font-color;
+}
+
+tr:nth-child(even) {
+    background-color: #958c89;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}

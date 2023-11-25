@@ -17,7 +17,11 @@ $pico = new Pico(
 );
 
 // override configuration?
-//$pico->setConfig(array());
+$pico->setConfig(array(
+    'session' => $_SESSION
+));
+// För att hämta session använd: 
+// {{ config.session }}
 
 // run application
 echo $pico->run();

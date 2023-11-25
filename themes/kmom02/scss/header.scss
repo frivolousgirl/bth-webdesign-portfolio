@@ -1,6 +1,7 @@
 /* Header */
 
-.header, .site-header {
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -8,11 +9,16 @@
 
 /* Title */
 
-.title, .logo {
+.title,
+.logo {
     padding: 3em 3em 3em 0;
     max-width: 300px;
-    
+
     a {
         text-decoration: none;
     }
+}
+
+.logo img {
+    box-shadow: 12px 12px 2px 1px $accent-color2;
 }
