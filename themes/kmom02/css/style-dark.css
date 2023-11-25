@@ -6518,7 +6518,7 @@ code {
   font-size: 0.85rem;
   line-height: 1.9824;
   background: #958c89;
-  color: #482c2e;
+  color: #fdf7eb;
 }
 
 pre {
@@ -6527,7 +6527,7 @@ pre {
   border-radius: 0.3em;
   background: #958c89;
   margin: 1em 0;
-  color: #482c2e;
+  color: #fdf7eb;
 }
 
 pre code {
@@ -6750,30 +6750,30 @@ img {
 }
 
 /* Gallery Styles */
-div.gallery {
+div .gallery {
   margin: 30px 10px;
   float: left;
   width: 300px;
   border: 1px solid #fdf7eb;
 }
-div.gallery:hover {
+div .gallery:hover {
   box-shadow: 12px 12px 2px 1px #a7b3de;
   background-color: #ec8970;
   color: #fdf7eb;
 }
-div.gallery a {
+div .gallery a {
   height: 200px;
   display: block;
   background-position: center 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-div.gallery img {
+div .gallery img {
   width: 50%;
   height: auto;
 }
 
-div.desc {
+div .desc {
   padding: 15px;
   text-align: center;
   color: #fdf7eb;

@@ -25,6 +25,7 @@
 .box a {
     color: $accent-color2;
     text-decoration: underline wavy;
+    
     &:hover {
         color: $accent-color2;
         border-bottom: 3px solid $accent-color2;
