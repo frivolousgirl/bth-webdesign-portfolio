@@ -81,11 +81,11 @@ Mina observerade resultat:
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #FDFF00">
-<td style="height: 50px; width: 50px; background-color: #F4F5F6">
-<td style="height: 50px; width: 50px; background-color: #D8D8F4">
-<td style="height: 50px; width: 50px; background-color: #E96251">
-<td style="height: 50px; width: 50px; background-color: #27292C">
+<td style="height: 50px; background-color: #FDFF00">
+<td style="height: 50px; background-color: #F4F5F6">
+<td style="height: 50px; background-color: #D8D8F4">
+<td style="height: 50px; background-color: #E96251">
+<td style="height: 50px; background-color: #27292C">
 </tr>
 </table>
 
@@ -119,20 +119,20 @@ Det lila och gula i färgpaletten kan betraktas som kompletterande, men den äld
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #000000">
-<td style="height: 50px; width: 50px; background-color: #F6F6F6">
-<td style="height: 50px; width: 50px; background-color: #B9B7E9">
-<td style="height: 50px; width: 50px; background-color: #8A72F7">
-<td style="height: 50px; width: 50px; background-color: #5546C3">
+<td style="height: 50px; background-color: #000000">
+<td style="height: 50px; background-color: #F6F6F6">
+<td style="height: 50px; background-color: #B9B7E9">
+<td style="height: 50px; background-color: #8A72F7">
+<td style="height: 50px; background-color: #5546C3">
 </tr>
 </table>
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #BC4D3F">
-<td style="height: 50px; width: 50px; background-color: #DAA188">
-<td style="height: 50px; width: 50px; background-color: #E6C9A8">
-<td style="height: 50px; width: 50px; background-color: #F3DDE1">
-<td style="height: 50px; width: 50px; background-color: #FC8A6E">
+<td style="height: 50px; background-color: #BC4D3F">
+<td style="height: 50px; background-color: #DAA188">
+<td style="height: 50px; background-color: #E6C9A8">
+<td style="height: 50px; background-color: #F3DDE1">
+<td style="height: 50px; background-color: #FC8A6E">
 </tr>
 </table>
 
@@ -158,11 +158,11 @@ En intressant observation som särskiljer Bangerhead från de andra butikerna i 
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #EE9A90">
-<td style="height: 50px; width: 50px; background-color: #F7F1C7">
-<td style="height: 50px; width: 50px; background-color: #F0C9DD">
-<td style="height: 50px; width: 50px; background-color: #F2DBEF">
-<td style="height: 50px; width: 50px; background-color: #90D4E6">
+<td style="height: 50px; background-color: #EE9A90">
+<td style="height: 50px; background-color: #F7F1C7">
+<td style="height: 50px; background-color: #F0C9DD">
+<td style="height: 50px; background-color: #F2DBEF">
+<td style="height: 50px; background-color: #90D4E6">
 </tr>
 </table>
 
@@ -180,11 +180,11 @@ Trots avsaknaden av tydliga svarta element behåller sidan ändå en sofistikera
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #FAEFF0">
-<td style="height: 50px; width: 50px; background-color: #F5F5F5">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF">
-<td style="height: 50px; width: 50px; background-color: #000000">
-<td style="height: 50px; width: 50px; background-color: #EA325B">
+<td style="height: 50px; background-color: #FAEFF0">
+<td style="height: 50px; background-color: #F5F5F5">
+<td style="height: 50px; background-color: #FFFFFF">
+<td style="height: 50px; background-color: #000000">
+<td style="height: 50px; background-color: #EA325B">
 </tr>
 </table>
 
@@ -202,11 +202,11 @@ Genom att hålla sig till denna renodlade färgpalett, förstärker Skincity sin
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #C5D8DD">
-<td style="height: 50px; width: 50px; background-color: #F6F6F6">
-<td style="height: 50px; width: 50px; background-color: #E02D2D">
-<td style="height: 50px; width: 50px; background-color: #ED9391">
-<td style="height: 50px; width: 50px; background-color: #000000">
+<td style="height: 50px; background-color: #C5D8DD">
+<td style="height: 50px; background-color: #F6F6F6">
+<td style="height: 50px; background-color: #E02D2D">
+<td style="height: 50px; background-color: #ED9391">
+<td style="height: 50px; background-color: #000000">
 </tr>
 </table>
 
@@ -224,9 +224,9 @@ Den konsekventa användningen av den röda färgen speglar mer varuhusets identi
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #1A1A1A">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF">
-<td style="height: 50px; width: 50px; background-color: #ECECEC">
+<td style="height: 50px; background-color: #1A1A1A">
+<td style="height: 50px; background-color: #FFFFFF">
+<td style="height: 50px; background-color: #ECECEC">
 </tr>
 </table>
 
