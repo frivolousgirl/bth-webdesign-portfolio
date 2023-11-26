@@ -48,7 +48,6 @@ body {
 }
 
 .main {
-    flex: 1 0 auto;
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -56,21 +55,6 @@ body {
 .header,
 .footer {
     flex: 0 0 auto;
-}
-
-@media (max-width: 767px) {
-    .title,
-    .logo {
-        padding: 1em 1em 1em 0;
-    }
-
-    .title {
-        min-width: 50%;
-    }
-
-    .logo {
-        max-width: 30%;
-    }
 }
 
 .title * {
@@ -81,7 +65,7 @@ body {
     font-style: italic;
 }
 
-/* Typografy */
+/* Typography */
 
 body {
     font-family: sans-serif;
@@ -188,4 +172,27 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 25px 0;
+}
+
+/* Media */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+        margin: 0 auto;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
