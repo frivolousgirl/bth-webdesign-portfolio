@@ -6551,7 +6551,6 @@ pre code {
 
 .box {
   border: 3px solid #482c2e;
-  height: 10em;
   padding: 1em;
 }
 .box:hover {
@@ -6647,6 +6646,48 @@ pre code {
     justify-content: space-evenly;
   }
 }
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.google-sheets {
+  width: 100%;
+  height: 300px;
+  padding: 10px 0;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  position: relative;
+  margin: 1rem;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6726,10 +6767,20 @@ h1 {
   line-height: 1em;
 }
 
-img {
+img,
+embed,
+object,
+video {
   max-width: 100%;
+}
+
+img {
   height: auto;
   display: block;
+}
+
+img:not([alt]) {
+  outline: 4px red dashed !important;
 }
 
 /* Gallery Styles */
@@ -6794,7 +6845,7 @@ table {
 }
 
 /* Media */
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 912) {
   .title,
   .logo {
     padding: 1em 1em 1em 0;
@@ -6806,7 +6857,8 @@ table {
     max-width: 30%;
     margin: 0 auto;
   }
-  th, td {
+  th,
+  td {
     display: block;
     width: 100%;
     box-sizing: border-box;

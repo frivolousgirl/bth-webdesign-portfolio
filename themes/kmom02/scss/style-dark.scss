@@ -13,6 +13,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 @import "blockquotes";
 @import "code-dark";
 @import "technology-dark";
+@import "media";
 
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 //font-family: 'Gabarito', sans-serif;
@@ -100,12 +101,21 @@ h1 {
     line-height: 1em;
 }
 
-img {
+img,
+embed,
+object,
+video {
     max-width: 100%;
+}
+
+img {
     height: auto;
     display: block;
 }
 
+img:not([alt]) {
+    outline: 4px rgb(255, 251, 0) dashed !important;
+}
 
 /* Gallery Styles */
 
@@ -175,7 +185,7 @@ table {
 }
 
 /* Media */
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 912px) {
     .title,
     .logo {
         padding: 1em 1em 1em 0;

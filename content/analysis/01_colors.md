@@ -69,13 +69,13 @@ Mina observerade resultat:
 ###Lyko
 
 <div class="gallery">
-  <a href="%base_url%?image/Lyko2017.png" style="background-image:url(%base_url%?image/Lyko2017.png)">
+  <a href="%base_url%?image/Lyko2017.png" style="background-image:url(%base_url%?image/Lyko2017-600w.png)">
   </a>
   <div class="desc">Lyko 2017</div>
 </div>
 
 <div class="gallery">
-  <a href="%base_url%?image/lyko.png" style="background-image:url(%base_url%?image/lyko.png)"></a>
+  <a href="%base_url%?image/lyko.png" style="background-image:url(%base_url%?image/lyko600w.png)"></a>
   <div class="desc">Lyko Idag</div>
 </div>
 
@@ -100,19 +100,19 @@ Det lila och gula i färgpaletten kan betraktas som kompletterande, men den äld
 ###Bangerhead
 
 <div class="gallery">
-  <a href="%base_url%?/image/Bangerhead2011.png" style="background-image:url(%base_url%?/image/Bangerhead2011.png)">
+  <a href="%base_url%?/image/Bangerhead2011.png" style="background-image:url(%base_url%?/image/Bangerhead2011-600w.png)">
   </a>
   <div class="desc">Bangerhead 2011</div>
 </div>
 
 <div class="gallery">
-  <a href="%base_url%?/image/Bangerhead2017.png" style="background-image:url(%base_url%?/image/Bangerhead2017.png)">
+  <a href="%base_url%?/image/Bangerhead2017.png" style="background-image:url(%base_url%?/image/Bangerhead2017-600w.png)">
   </a>
   <div class="desc">Bangerhead 2017</div>
 </div>
 
 <div class="gallery">
-  <a href="%base_url%?/image/bangerhead.png" style="background-image:url(%base_url%?/image/bangerhead.png)">
+  <a href="%base_url%?/image/bangerhead.png" style="background-image:url(%base_url%?/image/bangerhead600w.png)">
   </a>
   <div class="desc">Bangerhead Idag</div>
 </div>
@@ -145,13 +145,13 @@ En intressant observation som särskiljer Bangerhead från de andra butikerna i 
 ###Kicks
 
 <div class="gallery">
-  <a href="%base_url%?/image/kicks2016.png" style="background-image:url(%base_url%?/image/kicks2016.png)">
+  <a href="%base_url%?/image/kicks2016.png" style="background-image:url(%base_url%?/image/kicks2016-600w.png)">
   </a>
   <div class="desc">Kicks 2016</div>
 </div>
 
 <div class="gallery">
-  <a href="%base_url%?/image/kicks.png" style="background-image:url(%base_url%?/image/kicks.png)">
+  <a href="%base_url%?/image/kicks.png" style="background-image:url(%base_url%?/image/kicks600w.png)">
   </a>
   <div class="desc">Kicks Idag</div>
 </div>
@@ -173,7 +173,7 @@ Trots avsaknaden av tydliga svarta element behåller sidan ändå en sofistikera
 ###SkinCity
 
 <div class="gallery">
-  <a href="%base_url%?/image/skincity.png" style="background-image:url(%base_url%?/image/skincity.png)">
+  <a href="%base_url%?/image/skincity.png" style="background-image:url(%base_url%?/image/skincity600w.png)">
   </a>
   <div class="desc">SkinCitys Hemsida</div>
 </div>
@@ -195,7 +195,7 @@ Genom att hålla sig till denna renodlade färgpalett, förstärker Skincity sin
 ###Åhléns
 
 <div class="gallery">
-  <a href="%base_url%?/image/ahlens.png" style="background-image:url(%base_url%?/image/ahlens.png)">
+  <a href="%base_url%?/image/ahlens.png" style="background-image:url(%base_url%?/image/ahlens600w.png)">
   </a>
   <div class="desc">Åhléns Hemsida</div>
 </div>
@@ -217,7 +217,7 @@ Den konsekventa användningen av den röda färgen speglar mer varuhusets identi
 ###NK
 
 <div class="gallery">
-  <a href="%base_url%?/image/nk.png" style="background-image:url(%base_url%?/image/nk.png)">
+  <a href="%base_url%?/image/nk.png" style="background-image:url(%base_url%?/image/nk600w.png)">
   </a>
   <div class="desc">NKs Hemsida</div>
 </div>

@@ -1,5 +1,5 @@
 ---
-Logo: image/author.png
+Logo: image/author.png?w=250
 Title: Isabel Salo
 Tagline: My portfolio.
 Social:
