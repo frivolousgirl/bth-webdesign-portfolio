@@ -102,21 +102,6 @@ h1 {
     line-height: 88px
 }
 
-img,
-embed,
-object,
-video {
-    max-width: 100%;
-}
-
-img {
-    height: auto;
-    display: block;
-}
-
-img:not([alt]) {
-    outline: 4px rgb(255, 251, 0) dashed !important;
-}
 
 /* Gallery Styles */
 

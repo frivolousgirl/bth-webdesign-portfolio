@@ -101,26 +101,6 @@ h1 {
     line-height: 88px;
 }
 
-img,
-embed,
-object,
-video {
-    max-width: 100%;
-}
-
-img {
-    height: auto;
-    display: block;
-    transition: opacity 0.3s ease-in-out;
-
-    &:hover {
-        opacity: 0.8;
-    }
-}
-
-img:not([alt]) {
-    outline: 4px rgb(255, 174, 0) dashed !important;
-}
 
 /* Gallery Styles */
 div .gallery {
