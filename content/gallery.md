@@ -59,5 +59,5 @@ Description: Gallery of images.
 # Video
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/WNugaxb9MQs?si=QrP9qHMySI4HmUo6" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/WNugaxb9MQs?si=m8p3wn3vgypImzQ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

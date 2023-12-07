@@ -98,7 +98,8 @@ h6 {
 }
 
 h1 {
-    line-height: 1em;
+    border-bottom: 5px solid #d8fea4;
+    line-height: 88px
 }
 
 img,
@@ -170,12 +171,12 @@ td {
 }
 
 th {
-    background-color: $accent-color3;
-    color: $font-color;
+    background-color: #444;
+    color: $light-color;
 }
 
 tr:nth-child(even) {
-    background-color: #958c89;
+    background-color: #424242;
 }
 
 table {

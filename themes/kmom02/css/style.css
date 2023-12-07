@@ -6451,8 +6451,8 @@ template {
   text-decoration: none;
 }
 .nav a:hover {
-  color: #ec8970;
-  border-bottom: 3px solid #ec8970;
+  color: #a7b3de;
+  border-bottom: 3px solid #a7b3de;
   text-decoration: none;
 }
 
@@ -6490,16 +6490,21 @@ template {
   margin: 0 10px;
 }
 .footer a:hover {
-  color: #a7b3de;
+  color: #F06541;
   border: none;
-}
-
-.footer h3 {
-  text-transform: uppercase;
 }
 
 .footer .social {
   font-size: 1.5em;
+}
+
+.footer-header {
+  text-transform: uppercase;
+  margin: 0.6em 0;
+  font-weight: bold;
+  font-family: "Gabarito", sans-serif;
+  font-size: large;
+  letter-spacing: 0.1em;
 }
 
 blockquote {
@@ -6512,7 +6517,7 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #d8fea4;
+  border: 1px solid #F06541;
   border-radius: 0.3em;
   font-family: monospace;
   font-size: 0.85rem;
@@ -6522,7 +6527,7 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #d8fea4;
+  border: 1px solid #F06541;
   border-radius: 0.3em;
   margin: 1em 0;
   background: #fdf7eb;
@@ -6558,11 +6563,11 @@ pre code {
 }
 
 .box a {
-  color: #ec8970;
+  color: #F06541;
   text-decoration: underline wavy;
 }
 .box a:hover {
-  color: #ec8970;
+  color: #F06541;
 }
 
 .css {
@@ -6604,8 +6609,8 @@ pre code {
 .tech-list {
   flex: 1;
   padding: 20px;
-  border: 3px solid #ec8970;
-  box-shadow: 12px 12px 2px 1px #ec8970;
+  border: 3px solid #a7b3de;
+  box-shadow: 12px 12px 2px 1px #a7b3de;
   border-radius: 23px;
   margin: 20px 30px;
 }
@@ -6653,6 +6658,7 @@ pre code {
   overflow: hidden;
   max-width: 100%;
 }
+.embed-container iframe,
 .embed-container object,
 .embed-container embed {
   position: absolute;
@@ -6764,7 +6770,8 @@ h6 {
 }
 
 h1 {
-  line-height: 1em;
+  border-bottom: 5px solid #d8fea4;
+  line-height: 88px;
 }
 
 img,
@@ -6777,10 +6784,14 @@ video {
 img {
   height: auto;
   display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+img:hover {
+  opacity: 0.8;
 }
 
 img:not([alt]) {
-  outline: 4px red dashed !important;
+  outline: 4px rgb(255, 174, 0) dashed !important;
 }
 
 /* Gallery Styles */
@@ -6792,7 +6803,7 @@ div .gallery {
 }
 div .gallery:hover {
   box-shadow: 12px 12px 2px 1px #a7b3de;
-  background-color: #ec8970;
+  background-color: #F06541;
   color: #fdf7eb;
 }
 div .gallery a {
@@ -6814,12 +6825,12 @@ div .desc {
 }
 
 a {
-  color: #a7b3de;
+  color: #F06541;
   text-decoration: none;
 }
 a:hover {
-  color: #ec8970;
-  border-bottom: 3px solid #ec8970;
+  color: #a7b3de;
+  border-bottom: 3px solid #a7b3de;
   text-decoration: none;
 }
 

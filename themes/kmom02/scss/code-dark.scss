@@ -6,15 +6,15 @@ code {
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
-    background: $background-alternative-color;
-    color: $font-color;
+    background: $light-color;
+    color: #000;
 }
 
 pre {
     padding: 0 1em;
     border: 1px solid $accent-color3;
     border-radius: 0.3em;
-    background: $background-alternative-color;
+    background: $light-color;
     margin: 1em 0;
     color: $font-color;
 }

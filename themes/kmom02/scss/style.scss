@@ -97,7 +97,8 @@ h6 {
 }
 
 h1 {
-    line-height: 1em;
+    border-bottom: 5px solid #d8fea4;
+    line-height: 88px;
 }
 
 img,
@@ -110,6 +111,11 @@ video {
 img {
     height: auto;
     display: block;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+    }
 }
 
 img:not([alt]) {

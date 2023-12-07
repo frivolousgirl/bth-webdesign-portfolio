@@ -18,5 +18,6 @@ Template: technologies
 </div>
 
 <div class="box">
-<h2><a href="%base_url%?analysis/03_design_principles">Design Principles</a></h2>
+<h2><a href="%base_url%?analysis/03_designprinciples">Design Principles</a></h2>
+<p>En utvärdering av designprinciper hos tre svenska skönhetsmärkens hemsidor.</p>
 </div>

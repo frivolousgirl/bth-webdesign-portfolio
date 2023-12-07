@@ -4,7 +4,8 @@ Description: Documentation that came with Pico.
 # hidden: true
 ---
 
-## Welcome to Pico
+Welcome to Pico
+==========================
 
 Congratulations, you have successfully installed [Pico][] %version%.
 %meta.description% <!-- replaced by the above Description header -->
@@ -290,7 +291,7 @@ a page's child pages by passing the `depth` and `depthOffset` params. For
 example, if you pass `pages(depthOffset=-1)`, the list will also include Pico's
 main index page (i.e. `content/index.md`). This one is commonly used to create
 a theme's main navigation. If you want to learn more, head over to Pico's
-complete [`pages()` function documentation][FeaturesPagesFunction].
+complete `pages()` [function documentation][FeaturesPagesFunction].
 
 If you want to access the data of a particular page, use Pico's `pages`
 variable. Just take `content/_meta.md` in Pico's sample contents for an

@@ -1,6 +1,6 @@
 ---
 Title: Colors
-Description: Color Analysis.
+Description: Color Analysis Report
 Template:
 ---
 

@@ -1,6 +1,6 @@
 ---
 Title: Load
-Description: Page Loading Speed.
+Description: Page Loading Speed Report
 Template: 
 ---
 
