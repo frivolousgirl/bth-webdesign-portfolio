@@ -23,16 +23,6 @@ Dessa tre valdes på grund av deras framstående ställning på den svenska mark
 Metod
 -----------------------
 
-För att noggrant utvärdera designprinciperna på de valda svenska skönhetsmärkenas webbplatser använde jag en kombination av visuell inspektion och användarupplevelseanalys. Varje sida granskades noggrant med fokus på designprinciperna, och jag identifierade användarupplevelsen genom att kartlägga navigationsvägar och interaktioner.
-
-Under visuell inspektion använde jag [specificera verktyg eller tekniker] för att analysera aspekter som färgval, layout och typografi. Dessutom genomförde jag responsivitetstester med [nämn verktyg] för att säkerställa en enhetlig upplevelse över olika enheter.
-
-
-
-
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
-Berätta om du använde något speciellt bakgrundsmaterial som definierade designprinciper (och designelement). Det blir stöd för din bakomliggande metod för att utföra din studie.
-
 För att noggrant utvärdera designprinciperna på de valda svenska skönhetsmärkenas webbplatser använde jag en kombination av visuell inspektion och användarupplevelseanalys. 
 
 Jag baserade min analys på klassiska designprinciper så som: 
@@ -61,14 +51,6 @@ Dessa principer gav mig en ram att bedöma varje webbplats och skapa en mer omfa
 
 Resultat
 -----------------------
-
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
-För varje webbplats, gör följande (skriv kortfattat, 1-2 meningar om varje):
-- Kommentera webbplatsens mål och syfte. Varför finns webbplatsen till?
-- Kommentera webbplatsens design och vad som kännetecknar den rent allmänt.
-- Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger.
-- Lyft fram den eller de designprinciper du anser kännetecknar webbplatsens design och exemplifiera. Notera gärna vilka designelement som använts.
-- Kika om designprinciperna som används är lika/olika för framsidan och undersidorna och kommentera.
 
 ### ACO
 
